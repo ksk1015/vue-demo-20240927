@@ -104,6 +104,7 @@ const handleBlurInputCode = () => {
           >
             X
           </button>
+          <span> ID: {{ element.id }} </span>
           <label>
             <span>都道府県コード：</span>
             <input

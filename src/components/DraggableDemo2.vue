@@ -40,7 +40,6 @@ const handleBlur = () => {
           <span>{{ element.id }}</span>
           <input
             type="text"
-            draggable="false"
             @pointerdown="handlePointerdown"
             @blur="handleBlur"
           />
